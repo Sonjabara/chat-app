@@ -1,0 +1,31 @@
+.send-message-container {
+  form {
+    display: flex;
+    padding: 16px 0;
+    background-color: #D3DCE3;
+  }
+  
+  input {
+    flex: 1;
+    margin: 0 16px;
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0 8px;
+  }
+
+  button {
+    margin-right: 24px;
+    padding: 8px 8px;
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
